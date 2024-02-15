@@ -12,3 +12,14 @@ npm run resetDB
 
 to run the front_boilerplate command:
 docker run -p 3000:3000 tgc-frontend_boilerplate
+
+Other commands
+
+stop all containers
+dc down 
+
+start all containers
+dc up -d
+
+autogen graphql queries
+npm run codegen
